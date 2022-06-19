@@ -8,6 +8,7 @@ MLModel:
   - 32
   - 32
   - 16
+  - 16
   optimizer: adam
 download_kaggle:
   dataset: datamunge/sign-language-mnist
