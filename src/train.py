@@ -24,8 +24,7 @@ class TFModel(ZnTrackOption):
     def get_data_from_files(self, instance):
         """Load values from file and deserialize"""
         file = self.get_filename(instance)
-        model = keras.models.load_model(file)
-        return model
+        return keras.models.load_model(file)
 
 
 class MLModel(Node):
